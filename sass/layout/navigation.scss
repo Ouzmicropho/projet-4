@@ -1,0 +1,73 @@
+.nav-bar {
+  text-align: center;
+  background-color: #f6f6f6;
+
+  .search-bar {
+    margin-top: 5px;
+    font-size: 1.3rem;
+    padding-top: 1rem;
+    align-items: center;
+    background-color: #eaeaea;
+
+    input {
+      border: none;
+      font-size: 1.3rem;
+      width: 200px;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      background-color: #eaeaea;
+    }
+
+    input:focus {
+      outline-color: darkgray;
+    }
+
+    .btn-explore .subtitle {
+      margin-bottom: 3rem;
+    }
+
+    .btn-explore {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      background-color: $gray-background-color;
+    }
+
+    .btn-explore label {
+      display: flex;
+      justify-content: center;
+      color: white;
+      border-radius: 2rem;
+      font-size: 1.3rem;
+      background: linear-gradient(#ff79da, #9356dc);
+      padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+      margin-bottom: 3rem;
+      box-shadow: 0 3px 10px darkgray;
+      transition: 100ms;
+    }
+
+    .btn-explore label:hover {
+      cursor: pointer;
+      transform: scale(1.02);
+      box-shadow: 0 3px 10px #ff79da;
+      transition: 0.5s;
+    }
+    .btn-explore p {
+      font-size: 1.8rem;
+      margin: 0;
+      margin-top: 1.5rem;
+      padding: 0 1rem;
+      flex-basis: 100%;
+    }
+  }
+
+  .gray {
+    color: dimgray;
+  }
+
+  .accessibility-label {
+    position: absolute;
+    left: -999px;
+  }
+}
